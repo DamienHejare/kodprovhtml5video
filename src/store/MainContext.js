@@ -8,8 +8,8 @@ export const ACTION_TYPE = {
 const MainContext = createContext()
 
 const initialState = {
-  selectedVideoId: null;
-  selectedVideoSrc: null;
+  selectedVideoId: null,
+  selectedVideoSrc: null,
   videoList: []
 }
 
@@ -18,8 +18,8 @@ const reducer = (state, action) => {
     case ACTION_TYPE.CHANGE_SELECTED_VIDEO:
       return {
         ...state,
-        selectedVideoId: action.payload.videoId,
-        selectedVideoSrc: action.payload.videoSrc
+        selectedVideoId: action.payload.selectedVideo.id,
+        selectedVideoSrc: action.payload.selectedVideo.video
       }
 
     case ACTION_TYPE.UPDATE_VIDEO_LIST:
