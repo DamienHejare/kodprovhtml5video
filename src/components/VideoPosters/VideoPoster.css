@@ -1,0 +1,20 @@
+.VideoPoster {
+  padding: 6px;
+  cursor: pointer;
+}
+
+.VideoPoster:first-of-type {
+  padding: 6px 6px 6px 0px;
+}
+
+.VideoPoster:last-of-type {
+  padding: 6px 0px 6px 6px;
+}
+
+.VideoPosterImg {
+}
+
+.VideoPosterName {
+  font-weight: 600;
+  text-align: center;
+}
