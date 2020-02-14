@@ -1,0 +1,10 @@
+.VideoPostersContainer {
+  max-width: 856px;
+  overflow-x: auto;
+}
+
+.VideoPostersContainerInner {
+  display: flex;
+  flex: 1;
+  overflow-x: auto;
+}
